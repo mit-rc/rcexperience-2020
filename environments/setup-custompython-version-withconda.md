@@ -5,7 +5,7 @@
 # Installing conda via command line
 
 
-1. create a custom directory to work in
+1. create a custom directory to work and switch to working in that directory
 
   ```
   mkdir myspecialenv
@@ -13,10 +13,13 @@
   ```
 
 
-```
-curl https://repo.anaconda.com/archive/Anaconda3-2020.07-MacOSX-x86_64.sh > Anaconda3-2020.07-MacOSX-x86_64.sh
-chmod +x Anaconda3-2020.07-MacOSX-x86_64.sh
-./Anaconda3-2020.07-MacOSX-x86_64.sh -p conda3
+2. 
+   ```
+   curl https://repo.anaconda.com/archive/Anaconda3-2020.07-MacOSX-x86_64.sh > Anaconda3-2020.07-MacOSX-x86_64.sh
+   chmod +x Anaconda3-2020.07-MacOSX-x86_64.sh
+   ./Anaconda3-2020.07-MacOSX-x86_64.sh -p conda3
+   ```
+   
 source conda3/bin/activate
 python -V
 conda create -n py37 python=3.7
