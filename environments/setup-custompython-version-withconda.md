@@ -42,3 +42,11 @@
   conda deactivate
  
   ```
+7. to reactivate the environment 
+  ```
+  cd    myspecialenv
+  source conda3/bin/activate  
+  conda activate py37
+  ```
+  
+Conda can be used in this way to create multiple different evironments. 
