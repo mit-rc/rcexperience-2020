@@ -13,7 +13,8 @@
   ```
 
 
-2. 
+2. download conda install script and install the conda software in a sub-directory called
+
    ```
    curl https://repo.anaconda.com/archive/Anaconda3-2020.07-MacOSX-x86_64.sh > Anaconda3-2020.07-MacOSX-x86_64.sh
    chmod +x Anaconda3-2020.07-MacOSX-x86_64.sh
