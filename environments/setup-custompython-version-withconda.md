@@ -20,10 +20,25 @@
   chmod +x Anaconda3-2020.07-MacOSX-x86_64.sh
   ./Anaconda3-2020.07-MacOSX-x86_64.sh -p conda3
   ```
-   
-source conda3/bin/activate
-python -V
-conda create -n py37 python=3.7
-conda activate py37
-python -V
-```
+3. activate the base conda environment and check python version (it will be a very recent version)
+  ```
+  source conda3/bin/activate
+  python -V
+  ``` 
+
+4. now create a new conda environment based on python 3.7 (or another version) and activate
+  ```
+  conda create -n py37 python=3.7
+  conda activate py37
+  ```
+5. now check the version and it should be python 3.7
+  ```
+  python -V
+  ```
+  
+6. to deactivate the conda environments use
+  ```
+  conda deactivate
+  conda deactivate
+ 
+  ```
